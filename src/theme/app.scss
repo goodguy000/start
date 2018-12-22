@@ -1,0 +1,38 @@
+@import '~font-awesome/scss/font-awesome.scss';
+@import './variables.scss';
+@import './util.scss';
+
+/**
+ * Override Bootstrap styles that you can't modify via variables here.
+ *
+ */
+.inner_page {
+  border-top: 80px solid $main-color;
+  transition: 0.2s all ease-in-out;
+}
+
+.app-button {
+  border: 1px solid transparent;
+  &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
+
+.button-style {
+  padding: 10px 30px;
+  background: #07b107;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.icon_and_text{
+  i {
+      margin-right: 5px;
+  }
+}
+
+.shadow-item {
+  &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
