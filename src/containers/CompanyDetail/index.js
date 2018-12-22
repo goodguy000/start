@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import ImagesSlider from 'components/ImagesSlider';
 
 export default class CompanyDetail extends React.Component {
   constructor(props) {
@@ -74,12 +75,12 @@ export default class CompanyDetail extends React.Component {
         {/* company full detail Start */}
         <section className="full-detail-description full-detail">
           <div className="container">
-            <div className="row row-bottom">
+            <div className="row-bottom">
               <h2 className="detail-title">About Company</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <div className="row row-bottom">
+            <div className="row-bottom">
               <h2 className="detail-title">Company Requirement</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <ul className="detail-list">
@@ -95,7 +96,7 @@ export default class CompanyDetail extends React.Component {
                 <li>Lorem ipsum dolor sit amet, consectetur.</li>
               </ul>
             </div>
-            <div className="row row-bottom">
+            <div className="row-bottom">
               <h2 className="detail-title">Benefits</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <ul className="detail-list">
@@ -111,6 +112,11 @@ export default class CompanyDetail extends React.Component {
                 <li>Lorem ipsum dolor sit amet, consectetur.</li>
               </ul>
             </div>
+          </div>
+        </section>
+        <section className="full-detail-description full-detail">
+          <div className="container justify-c">
+            <div className="col-sm-8 images-border"><ImagesSlider /></div>
           </div>
         </section>
       </Fragment>
