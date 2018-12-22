@@ -185,12 +185,27 @@ export default class CreateJob extends React.Component {
 
             <div className="row bottom-mrg extra-mrg">
               <form>
+                <h2 className="detail-title">Job Responsibilities</h2>
+                <div className="col-md-12 col-sm-12">
+                  <textarea className="form-control textarea" />
+                </div>
+
+                <div className="clearfix" />
+
                 <h2 className="detail-title">Job Requirement</h2>
                 <div className="col-md-12 col-sm-12">
-                  <textarea className="form-control textarea" placeholder="About Company" />
+                  <textarea className="form-control textarea" />
                 </div>
+
+                <div className="clearfix" />
+
+                <h2 className="detail-title">Benefits</h2>
                 <div className="col-md-12 col-sm-12">
-                  <button className="btn btn-success btn-primary small-btn">Submit your company</button>
+                  <textarea className="form-control textarea" />
+                </div>
+
+                <div className="col-md-12 col-sm-12">
+                  <button className="btn btn-success btn-primary small-btn">Create Job</button>
                 </div>
               </form>
             </div>
