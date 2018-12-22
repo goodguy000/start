@@ -204,8 +204,8 @@ export default class CreateJob extends React.Component {
                   <textarea className="form-control textarea" />
                 </div>
 
-                <div className="col-md-12 col-sm-12">
-                  <button className="btn btn-success btn-primary small-btn">Create Job</button>
+                <div className="col-md-12 col-sm-12 m-t-10 justify-c">
+                  <button className="btn btn-success small-btn">Create Job</button>
                 </div>
               </form>
             </div>

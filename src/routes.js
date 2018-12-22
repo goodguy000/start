@@ -19,6 +19,7 @@ import BrowseResume from './containers/BrowseResume';
 import JobDetail from './containers/JobDetail';
 import Contact from './containers/Contact';
 import FAQ from './containers/FAQ';
+import CompanyDetail from './containers/CompanyDetail';
 
 const isAuthenticated = connectedReduxRedirect({
   redirectPath: '/login',
@@ -49,6 +50,7 @@ const routes = [
       { path: '/create-resume', component: CreateResume },
       { path: '/create-job', component: CreateJob },
       { path: '/create-company', component: CreateCompany },
+      { path: '/company-detail', component: CompanyDetail },
       { path: '/candidate-profile', component: CandidateProfile },
       { path: '/login', component: Login },
       { path: '/faq', component: FAQ },

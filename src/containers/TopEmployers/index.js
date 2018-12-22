@@ -19,7 +19,7 @@ export default class TopEmployers extends React.Component {
 
           <div className="row extra-mrg">
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-1.jpg" className="img-responsive" alt="" />
                 </div>
@@ -34,7 +34,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-2.jpg" className="img-responsive" alt="" />
                 </div>
@@ -51,7 +51,7 @@ export default class TopEmployers extends React.Component {
 
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-3.jpg" className="img-responsive" alt="" />
                 </div>
@@ -66,7 +66,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-4.jpg" className="img-responsive" alt="" />
                 </div>
@@ -81,7 +81,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-5.jpg" className="img-responsive" alt="" />
                 </div>
@@ -97,7 +97,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-6.jpg" className="img-responsive" alt="" />
                 </div>
@@ -112,7 +112,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-7.jpg" className="img-responsive" alt="" />
                 </div>
@@ -127,7 +127,7 @@ export default class TopEmployers extends React.Component {
             </div>
 
             <div className="col-md-3 col-sm-6">
-              <Link className="grid-view brows-job-list shadow-item" to="/company-detail/netobjex">
+              <Link className="grid-view brows-job-list shadow-item" to="/company-detail?company=netobjex">
                 <div className="brows-job-company-img">
                   <img src="assets/img/com-1.jpg" className="img-responsive" alt="" />
                 </div>
