@@ -11,7 +11,8 @@ export default function reducer(state = initialState, action = {}) {
     case GET_ALL_COMPANY:
       return {
         ...state,
-        loading: true
+        loading: true,
+        error: null,
       };
     case GET_ALL_COMPANY_SUCCESS:
       return {
@@ -25,6 +26,7 @@ export default function reducer(state = initialState, action = {}) {
         ...state,
         loading: false,
         loaded: false,
+        data: null,
         error: action.error
       };
     default:

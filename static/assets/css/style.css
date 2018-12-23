@@ -4575,21 +4575,21 @@ button.btn.btn-login{
     border-color:transparent
 }
 .grid-view .brows-job-company-img{
-    width:80px;
+    width:140px;
     margin:10px auto;
-    height:80px;
+    height:140px;
     display:inline-block;
     border:1px solid #e4e4e4;
     background:#fff;
     vertical-align:middle;
     border-radius:50%;
-    line-height:80px
+    line-height:140px
 }
 .grid-view .brows-job-company-img img{
     margin:0 auto;
     vertical-align:middle;
     display:inline-block;
-    max-width:50px;
+    max-width:85%;
     line-height:50px
 }
 .grid-view-caption{

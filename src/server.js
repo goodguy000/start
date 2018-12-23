@@ -29,7 +29,9 @@ import { createApp } from 'app';
 import { getChunks, waitChunks } from 'utils/chunks';
 import asyncMatchRoutes from 'utils/asyncMatchRoutes';
 import { ReduxAsyncConnect, Provider } from 'components';
-import { getAllCompanies } from 'actions';
+import {
+  getAllCompanies
+} from 'actions';
 
 const pretty = new PrettyError();
 const chunksPath = path.join(__dirname, '..', 'static', 'dist', 'loadable-chunks.json');

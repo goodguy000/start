@@ -4,7 +4,7 @@ import auth from './modules/auth';
 import notifs from './modules/notifs';
 import counter from './modules/counter';
 import info from './modules/info';
-import company from './modules/company';
+import browseCompany from './modules/browseCompany';
 
 export default function createReducers(asyncReducers) {
   return {
@@ -12,7 +12,7 @@ export default function createReducers(asyncReducers) {
     online: (v = true) => v,
     notifs,
     auth,
-    company,
+    browseCompany,
     counter: multireducer({
       counter1: counter,
       counter2: counter,

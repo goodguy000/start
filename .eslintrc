@@ -19,7 +19,7 @@
     "no-underscore-dangle": "off",
     "prefer-promise-reject-errors": "warn",
     "prefer-template": "warn",
-    "react/forbid-prop-types": "warn",
+    "react/forbid-prop-types": 0,
     "react/jsx-closing-tag-location": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-no-target-blank": "warn",
