@@ -29,6 +29,7 @@ import { createApp } from 'app';
 import { getChunks, waitChunks } from 'utils/chunks';
 import asyncMatchRoutes from 'utils/asyncMatchRoutes';
 import { ReduxAsyncConnect, Provider } from 'components';
+import { getAllCompanies } from 'actions';
 
 const pretty = new PrettyError();
 const chunksPath = path.join(__dirname, '..', 'static', 'dist', 'loadable-chunks.json');
@@ -72,10 +73,14 @@ app.use((req, res, next) => {
   return next();
 });
 
-// Proxy to API server
-app.use('/api', (req, res) => {
-  proxy.web(req, res, { target: targetUrl });
+app.use('/api/server/get-all-companies', (req, res) => {
+  getAllCompanies(req, res);
 });
+
+// Proxy to API server
+// app.use('/api', (req, res) => {
+//   proxy.web(req, res, { target: targetUrl });
+// });
 
 app.use('/ws', (req, res) => {
   proxy.web(req, res, { target: `${targetUrl}/ws` });

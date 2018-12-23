@@ -17,6 +17,7 @@ module.exports = Object.assign(
     apiHost: process.env.APIHOST || 'localhost',
     apiPort: process.env.APIPORT,
     googleApiKey: 'AIzaSyCZfCaQ6iFnINBj_xsjurFiv0f_-HSc0oQ',
+    dbName: 'jobstock',
     app: {
       title: 'React Redux Example',
       description: 'All the modern best practices in one example.',

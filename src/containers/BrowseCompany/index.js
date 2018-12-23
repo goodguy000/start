@@ -1,11 +1,26 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router';
+import { getAllCompanies } from 'redux/modules/company';
 
+@connect(
+  state => ({
+    user: state.auth.user
+  }),
+  { getAllCompanies }
+)
+@withRouter
 export default class BrowseCompany extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+
+  componentDidMount() {
+    this.props.getAllCompanies();
+  }
+
   render() {
     return (
       <Fragment>
