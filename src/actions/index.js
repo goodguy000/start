@@ -1,5 +1,5 @@
-import { getAllCompanies } from './company';
+import * as companyActions from './company';
 
 module.exports = {
-  getAllCompanies
+  ...companyActions
 };
