@@ -1,1 +1,5 @@
-export getAllCompanies from './company';
+import { getAllCompanies } from './company';
+
+module.exports = {
+  getAllCompanies
+};
